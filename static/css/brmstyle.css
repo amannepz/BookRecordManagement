@@ -1,0 +1,85 @@
+body{
+ background-color: silver;
+ margin:0px 0px 0px 0px;
+ font-family:"calibri";
+}
+
+#header{
+ background-color:#329A97;
+ text-align:center;
+ padding-bottom:5px;
+ padding-top: 5px;
+}
+#header img{
+  height: 200;
+  width: 200;
+}
+#header h1{
+ padding-bottom: 0px;
+ text-align:center;
+ color:white;
+ letter-spacing:5px;
+ background-color: green;
+}
+}
+#nav{
+ width:60%;
+ margin:auto;
+}
+#nav a{
+ background-color:red; /* Yellow */
+ width:150px;
+ border:solid 2px #329A97; /* Teal Green */
+ font-size:20px;
+ text-decoration:none;
+ color:white;
+ padding-left:25px;
+ padding-right:25px;
+}
+#editdelete a{
+  background-color:red;
+  color:white;
+}
+#nav a:hover,#editdelete a:hover{
+  background-color:yellow;
+  color:green;
+}
+#main{
+ margin: auto;
+ border:solid 1px lightgray;
+ width:80%;
+ padding:5px;
+ margin-top:5px;
+}
+#main form, #main h2{
+ text-align:center;
+}
+#main table {
+ width:100%;
+ text-align:center;
+ color:darkblue;
+ font-size: 20px;
+
+}
+#main table th{
+ background-color: #329A97;
+ color:white;
+ font-size: 25px;
+}
+.btn{
+ background-color:#F4FA3C; /* Yellow */
+ width:150px;
+ border:solid 2px #329A97; /* Teal Green */
+ font-size:18px;
+ text-decoration:none;
+ color:#329A97;
+ padding-left:10px;
+ padding-right:10px;
+}
+#hello{
+ text-align:right;
+ margin-right:50px;
+ font-size:20px;
+ color:white;
+ background-color: black;
+}
